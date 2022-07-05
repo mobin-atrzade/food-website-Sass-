@@ -217,4 +217,40 @@ body {
 .gallery .cards-wrapper {
   display: flex;
   flex-wrap: wrap;
+}
+
+.footer {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.footer .social-media {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.footer .social-media-item {
+  list-style: none;
+}
+.footer .social-media-link {
+  text-decoration: none;
+  font-size: 50px;
+  color: #bbb;
+  transition: all 0.5s;
+}
+.footer .social-media-link:hover {
+  color: #d3ab55;
+}
+.footer-copyright {
+  font-family: "Sahel", Tahoma;
+  font-size: 20px;
+  color: #bbb;
 }/*# sourceMappingURL=main.css.map */
