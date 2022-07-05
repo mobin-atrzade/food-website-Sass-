@@ -7,6 +7,13 @@ $font-dancingScript: "Dancing Script", cursive;
 $font-josefinSans: "Josefin Sans", sans-serif;
 $font-nunito: "Nunito", sans-serif;
 
+@font-face {
+    font-family: Sahel;
+    src: url("../fonts/Sahel.eot");
+    src: url("../fonts/Sahel.ttf") format("ttf"),
+    url("../fonts/Sahel.woff") format("woff");
+}
+
 @mixin flexLayout {
     display: flex;
     align-items: center;
