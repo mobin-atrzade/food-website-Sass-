@@ -2,6 +2,12 @@
   font-family: Sahel;
   src: url("../fonts/Sahel.eot");
   src: url("../fonts/Sahel.ttf") format("ttf"), url("../fonts/Sahel.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nastaliq";
+  src: url("../fonts/IranNastaliq.ttf");
+  font-weight: normal;
 }
 * {
   padding: 0;
@@ -26,7 +32,7 @@ body {
 }
 
 .main-name {
-  font-family: "Nunito", sans-serif;
+  font-family: "Sahel", Tahoma;
   font-size: 50px;
   color: #bbb;
   font-weight: 300;
@@ -35,7 +41,7 @@ body {
 }
 
 .sub-name {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Sahel", Tahoma;
   font-size: 18px;
   color: #bbb;
   text-align: center;
@@ -45,7 +51,7 @@ body {
 }
 
 .main-heading {
-  font-family: "Dancing Script", cursive;
+  font-family: "Nastaliq", Tahoma;
   font-size: 100px;
   font-weight: 300;
   color: #d3ab55;
@@ -53,7 +59,7 @@ body {
 }
 
 .sub-heading {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Sahel", Tahoma;
   font-size: 60px;
   font-weight: 300;
   color: #bbb;
@@ -63,7 +69,7 @@ body {
 .main-btn {
   width: 170px;
   height: 45px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Sahel", Tahoma;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -99,4 +105,51 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.about-us {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.about-us-left {
+  width: 40%;
+}
+.about-us-left img {
+  width: 100%;
+  opacity: 0.7;
+}
+.about-us-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+.about-us-right .main-heading {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.about-us-right .sub-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about-us-right .starts {
+  margin: 30px 0;
+}
+.about-us-right .star {
+  font-size: 15px;
+  color: #d3ab55;
+  margin-left: 10px;
+}
+.about-us-right .description {
+  font-family: "Nastaliq", Tahoma;
+  font-size: 25px;
+  color: #bbb;
+  direction: rtl;
+  text-align: justify;
+}
+.about-us-right .description::first-letter {
+  padding-right: 30px;
 }/*# sourceMappingURL=main.css.map */
